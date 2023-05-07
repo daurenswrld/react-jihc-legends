@@ -1,0 +1,16 @@
+.header {
+    background: url("../../img/mainbg.png") no-repeat;
+    background-size: cover;
+    background-position: 0 70px;
+    padding: 0 0 200px 0;
+    background-color: #EFEFEF;
+    min-height: 100vh;
+}
+
+.header__body h1 {
+    font-size: 100px;
+    text-align: center;
+    line-height: 180px;
+    color: transparent;
+    -webkit-text-stroke: 2px #195B5B;
+}

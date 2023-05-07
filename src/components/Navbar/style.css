@@ -1,0 +1,48 @@
+.navbar {
+    background: #EFEFEF;
+}
+
+.navbar__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.navbar__logo img {
+    height: 110px;
+}
+
+.navbar__menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #195B5B;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar__menu a:hover:after {
+    top: 25px;
+    visibility: visible;
+}
+
+.navbar__menu a:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background: #339999;
+    visibility: hidden;
+}
+
+.activeLink {
+    border-bottom: 2px solid #339999;
+    padding-bottom: 8px;
+}
